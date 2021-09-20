@@ -6,14 +6,50 @@
       format("woff2"),
     url("/HerveHamann_2_20092021/police/raleway-variablefont_wght-webfont.woff")
       format("woff");
+
   font-weight: normal;
   font-style: normal;
 }
+/*Styles principaux*/
 
 body {
   background-color: white;
   font-family: "ralewaythin", Arial, sans-serif;
 }
+
 #bloc_page {
   width: 100%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/*Header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 128px;
+}
+/*Nav bar*/
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav li {
+  margin-right: 65px;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:hover {
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
+  padding: 63px 0 0 0;
+}
+nav a:visited {
+  color: black;
+}
+#inscrire {
+  color: #0065fc;
+  font-weight: bold;
 }
