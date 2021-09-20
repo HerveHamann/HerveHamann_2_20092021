@@ -1,1 +1,1 @@
-# HerveHamann_2_20092021
+Projet 2 site Reservia pour OpenClassRoom crée par Hervé Hamann.
