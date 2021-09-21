@@ -1,20 +1,7 @@
-/*Définition des polices personnalisées*/
-
-@font-face {
-  font-family: "ralewaythin";
-  src: url("/HerveHamann_2_20092021/police/raleway-variablefont_wght-webfont.woff")
-      format("woff2"),
-    url("/HerveHamann_2_20092021/police/raleway-variablefont_wght-webfont.woff")
-      format("woff");
-
-  font-weight: normal;
-  font-style: normal;
-}
 /*Styles principaux*/
-
 body {
   background-color: white;
-  font-family: "ralewaythin", Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #bloc_page {
@@ -36,20 +23,22 @@ nav ul {
   display: flex;
 }
 nav li {
-  margin-right: 65px;
+  width: 120px;
+  height: 65px;
+  text-align: center;
 }
 nav a {
   text-decoration: none;
 }
-nav a:hover {
+nav li:hover {
   color: #0065fc;
   border-top: 3px solid #0065fc;
-  padding: 63px 0 0 0;
+  margin: 0px 0 63px 0;
 }
 nav a:visited {
   color: black;
 }
 #inscrire {
   color: #0065fc;
-  font-weight: bold;
+  font-weight: bolder;
 }
