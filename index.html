@@ -16,40 +16,97 @@
     <title>Reservia</title>
   </head>
   <body>
-    <div id="bloc_page">
-      <header>
-        <div id="logo"><img src="logo/Reservia.svg" alt="logo Reservia" /></div>
-        <nav>
-          <ul>
-            <li class="marginreducA">
-              <a class="barrebleueA" href="#hebergement">Hébergements</a>
-            </li>
-            <li class="marginreducB">
-              <a class="barrebleueB" href="#activite">Activités</a>
-            </li>
-            <li>
-              <a id="inscrire" href="#">S'inscrire</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    <header>
+      <div id="logo"><img src="logo/Reservia.svg" alt="logo Reservia" /></div>
+      <nav>
+        <ul>
+          <li class="marginreducA">
+            <a class="barrebleueA" href="#hebergement">Hébergements</a>
+          </li>
+          <li class="marginreducB">
+            <a class="barrebleueB" href="#activite">Activités</a>
+          </li>
+          <li>
+            <a id="inscrire" href="#">S'inscrire</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <p>En plein centre ville ou en pleine nature</p>
-        <i class="fas fa-map-marker-alt"></i>
-      </section>
+    <section id="sectionsearchbar">
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <p>En plein centre ville ou en pleine nature</p>
 
+      <div id="searchbar">
+        <div id="firstzone">
+          <i id="searchicon" class="fas fa-map-marker-alt"></i>
+        </div>
+        <form method="post" action="traitement.php">
+          <p>
+            <input
+              id="searchzone"
+              type="search"
+              name="place"
+              placeholder="Marseille, France"
+            />
+            <input
+              id="searchbouton"
+              type="submit"
+              name="place"
+              value="Rechercher"
+            />
+          </p>
+        </form>
+      </div>
+
+      <div id="filtrebar">
+        <p>Filtres</p>
+
+        <div id="filtreeco">
+          <div class="iconzone">
+            <i id="economiqueicon" class="fas fa-money-bill-wave"></i>
+          </div>
+          <p>Économique</p>
+        </div>
+
+        <div id="filtrefamilial">
+          <div class="iconzone">
+            <i id="childicon" class="fas fa-child"></i>
+          </div>
+          <p>Familial</p>
+        </div>
+
+        <div id="filtreromantique">
+          <div class="iconzone">
+            <i id="hearticon" class="fas fa-heart"></i>
+          </div>
+          <p>Romantique</p>
+        </div>
+
+        <div id="filtreanimal">
+          <div class="iconzone">
+            <i id="animalicon" class="fas fa-dog"></i>
+          </div>
+          <p>Animaux autorisés</p>
+        </div>
+      </div>
+
+      <div id="info">
+        <div id="cercleicon"><i id="infoicon" class="fas fa-info"></i></div>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
+    <div>
       <section>
         <div>
           <h1 id="hebergement">Hébergements à Marseille</h1>
         </div>
         <div></div>
       </section>
-      <section>
-        <div id="activite"><h1>Activités à Marseille</h1></div>
-      </section>
-      <footer></footer>
     </div>
+    <section>
+      <div id="activite"><h1>Activités à Marseille</h1></div>
+    </section>
+    <footer></footer>
   </body>
 </html>

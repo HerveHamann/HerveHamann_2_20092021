@@ -4,15 +4,19 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-#bloc_page {
+body {
   width: 100%;
-  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 header {
   display: flex;
   justify-content: space-between;
+  height: 126px;
+  margin-top: 0px;
+}
+#logo {
   padding-top: 33px;
-  height: 168px;
 }
 /* Nav bar*/
 nav ul {
@@ -21,6 +25,7 @@ nav ul {
 }
 nav li {
   margin-right: 65px;
+  margin-top: 25px;
 }
 nav a {
   text-decoration: none;
@@ -30,7 +35,7 @@ nav a {
 .barrebleueA:hover {
   color: #0065fc;
   border-top: #0065fc 3px solid;
-  padding: 54px 33px 0 33px;
+  padding: 47px 33px 0 33px;
 }
 .marginreducA:hover {
   margin-right: 32px;
@@ -40,7 +45,7 @@ nav a {
 .barrebleueB:hover {
   color: #0065fc;
   border-top: #0065fc 3px solid;
-  padding: 54px 57px 0 57px;
+  padding: 47px 57px 0 57px;
 }
 .marginreducB:hover {
   margin-right: 8px;
@@ -53,7 +58,22 @@ nav a {
 }
 
 /*section recherche et filtres*/
+/*recherche*/
+#sectionsearchbar {
+  height: 300px;
+  border: red solid 1px;
+}
+#sectionsearchbar h1 {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 18px;
 
+  margin-bottom: 15px;
+}
+#sectionsearchbar p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
 #searchbar {
   display: flex;
   justify-content: flex-start;
@@ -63,6 +83,7 @@ nav a {
   padding: 17px 0 0 21px;
 }
 #firstzone {
+  margin-top: 5px;
   width: 54px;
   height: 47px;
   border: 1px solid #f2f2f2;
@@ -89,4 +110,136 @@ nav a {
   font-weight: bold;
   color: white;
   font-size: 16px;
+}
+/*filtres*/
+#filtrebar {
+  display: flex;
+}
+#filtrebar p {
+  font-weight: bold;
+}
+/*classe fond blue de l'icone*/
+.iconzone {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #deebff;
+  background: #deebff;
+  border-radius: 25px;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+/*Icone Economique*/
+#filtreeco {
+  display: flex;
+  width: 193px;
+  height: 48px;
+  border: 2px solid #d9d9d9;
+  border-radius: 25px;
+  margin-left: 32px;
+}
+#filtreeco p {
+  padding-left: 14px;
+  margin-top: 12px;
+  font-size: 18px;
+}
+#economiqueicon {
+  width: 20px;
+  height: 18px;
+  margin-top: 16px;
+  margin-left: 14px;
+  color: #0065fc;
+}
+
+/*Icone Familiale*/
+#filtrefamilial {
+  display: flex;
+  width: 152px;
+  height: 48px;
+  border: 2px solid #d9d9d9;
+  border-radius: 25px;
+  margin-left: 24px;
+}
+#filtrefamilial p {
+  padding-left: 14px;
+  margin-top: 12px;
+  font-size: 19px;
+}
+#childicon {
+  width: 18px;
+  height: 26px;
+  margin-top: 16px;
+  margin-left: 18px;
+  color: #0065fc;
+}
+/*Icone Romantique*/
+#filtreromantique {
+  display: flex;
+  width: 184px;
+  height: 48px;
+  border: 2px solid #d9d9d9;
+  border-radius: 25px;
+  margin-left: 24px;
+}
+#filtreromantique p {
+  padding-left: 14px;
+  margin-top: 12px;
+  font-size: 19px;
+}
+#hearticon {
+  width: 20px;
+  height: 20px;
+  margin-top: 17px;
+  margin-left: 16px;
+  color: #0065fc;
+}
+/*Icone Animal*/
+#filtreanimal {
+  display: flex;
+  width: 245px;
+  height: 48px;
+  border: 2px solid #d9d9d9;
+  border-radius: 25px;
+  margin-left: 24px;
+}
+#filtreanimal p {
+  padding-left: 14px;
+  margin-top: 12px;
+  font-size: 19px;
+}
+#animalicon {
+  width: 25px;
+  height: 23px;
+  margin-top: 16px;
+  margin-left: 16px;
+  color: #0065fc;
+}
+#filtreeco:hover,
+#filtrefamilial:hover,
+#filtreromantique:hover,
+#filtreanimal:hover {
+  background-color: #0065fc;
+  color: white;
+  box-shadow: 10px 10px 10px #0065fc;
+}
+/*Message d'information*/
+#info {
+  display: flex;
+  align-items: center;
+}
+#cercleicon {
+  width: 25px;
+  height: 25px;
+  color: #0065fc;
+  border: #d9d9d9 1px solid;
+  border-radius: 20px;
+}
+#infoicon {
+  margin-left: 10px;
+  margin-top: 4px;
+}
+#info {
+  margin-top: 50px;
+}
+#info p {
+  margin-left: 13px;
 }
