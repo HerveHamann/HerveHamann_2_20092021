@@ -6,39 +6,39 @@ body {
 
 #bloc_page {
   width: 100%;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: auto;
 }
-/*Header*/
-
 header {
   display: flex;
   justify-content: space-between;
-  height: 128px;
+  padding-top: 45px;
 }
-/*Nav bar*/
+
 nav ul {
   list-style: none;
   display: flex;
 }
 nav li {
-  width: 120px;
-  height: 65px;
-  text-align: center;
+  margin-right: 65px;
 }
 nav a {
   text-decoration: none;
 }
-nav li:hover {
+.barrebleue:hover {
   color: #0065fc;
-  border-top: 3px solid #0065fc;
-  margin: 0px 0 63px 0;
+  border-top: #0065fc 3px solid;
+  padding: 67px 33px 0 33px;
 }
-nav a:visited {
-  color: black;
+.marginreducA:hover {
+  margin-right: 32px;
+  margin-left: 0px;
 }
+.marginreducB:hover {
+  margin-right: 32px;
+  margin-left: -33px;
+}
+
 #inscrire {
+  font-weight: bold;
   color: #0065fc;
-  font-weight: bolder;
 }
