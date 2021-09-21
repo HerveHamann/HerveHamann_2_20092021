@@ -11,9 +11,9 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding-top: 45px;
+  padding-top: 33px;
 }
-
+/* Nav bar*/
 nav ul {
   list-style: none;
   display: flex;
@@ -23,21 +23,29 @@ nav li {
 }
 nav a {
   text-decoration: none;
+  color: black;
 }
-.barrebleue:hover {
+/*Effet barre bleue*/
+.barrebleueA:hover {
   color: #0065fc;
   border-top: #0065fc 3px solid;
-  padding: 67px 33px 0 33px;
+  padding: 54px 33px 0 33px;
 }
 .marginreducA:hover {
   margin-right: 32px;
   margin-left: 0px;
 }
-.marginreducB:hover {
-  margin-right: 32px;
-  margin-left: -33px;
-}
 
+.barrebleueB:hover {
+  color: #0065fc;
+  border-top: #0065fc 3px solid;
+  padding: 54px 57px 0 57px;
+}
+.marginreducB:hover {
+  margin-right: 8px;
+  margin-left: -57px;
+}
+/*lien inscription*/
 #inscrire {
   font-weight: bold;
   color: #0065fc;
