@@ -5,6 +5,7 @@ body {
 }
 
 body {
+  max-width: 1440px;
   width: 100%;
   margin-left: 50px;
   margin-right: 50px;
@@ -61,7 +62,6 @@ nav a {
 /*recherche*/
 #sectionsearchbar {
   height: 300px;
-  border: red solid 1px;
 }
 #sectionsearchbar h1 {
   margin-top: 0px;
@@ -242,4 +242,225 @@ nav a {
 }
 #info p {
   margin-left: 13px;
+}
+/*Section hébergement et populaires*/
+#sectionhp {
+  display: flex;
+  justify-content: space-between;
+}
+/*Section hébergement*/
+#hebergement {
+  margin-left: 40px;
+  margin-top: 43px;
+  margin-right: 40px;
+  height: 532px;
+}
+#titrehebergement {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+#sectionhebergement {
+  width: 880px;
+  height: 625px;
+  background: #f2f2f2;
+  border-radius: 25px;
+  border: #f2f2f2 solid 1px;
+}
+#carteshebergement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#carteshebergement a {
+  text-decoration: none;
+}
+#afficher {
+  font-weight: bold;
+  margin: 0000;
+  padding: 0000;
+}
+/*class cartes*/
+.starbar {
+  font-size: 12px;
+  margin-left: 12px;
+  margin-top: 10px;
+  color: #0065fc;
+}
+
+.cartedescription {
+  border: solid white 1px;
+  width: 244px;
+  height: 80px;
+  position: relative;
+  top: 115px;
+  left: -5px;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+}
+.cartedescription h1,
+.cartedescription p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 12px;
+  color: black;
+}
+.cartedescription p span {
+  font-weight: bold;
+}
+
+#greystar {
+  color: #f2f2f2;
+}
+/*Carte Cannebière*/
+#cannebiere {
+  width: 236px;
+  height: 190px;
+  border: 5px solid white;
+  border-radius: 25px;
+  background: url("images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg")
+    no-repeat;
+  background-size: 236px 190px;
+  margin-bottom: 35px;
+}
+/*Carte Port*/
+#port {
+  width: 236px;
+  height: 190px;
+  border: 5px solid white;
+  border-radius: 25px;
+  background: url("images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg")
+    no-repeat;
+  background-size: 236px 190px;
+  margin-bottom: 35px;
+}
+/*Carte Mouettes*/
+#mouettes {
+  width: 236px;
+  height: 190px;
+  border: 5px solid white;
+  border-radius: 25px;
+  background: url("images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg")
+    no-repeat;
+  background-size: 236px 190px;
+  margin-bottom: 35px;
+}
+/*Carte Mer*/
+#mer {
+  width: 236px;
+  height: 190px;
+  border: 5px solid white;
+  border-radius: 25px;
+  background: url("images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg")
+    no-repeat;
+  background-size: 236px 190px;
+  margin-bottom: 45px;
+}
+/*Carte Panier*/
+#panier {
+  width: 236px;
+  height: 190px;
+  border: 5px solid white;
+  border-radius: 25px;
+  background: url("images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg")
+    no-repeat;
+  background-size: 236px 190px;
+  margin-bottom: 45px;
+}
+/*Carte Amina*/
+#Amina {
+  width: 236px;
+  height: 190px;
+  border: 5px solid white;
+  border-radius: 25px;
+  background: url("images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")
+    no-repeat;
+  background-size: 236px 190px;
+  margin-bottom: 45px;
+}
+/*section populaire*/
+#sectionpopulaires {
+  width: 420px;
+  height: 625px;
+  background: #f2f2f2;
+  border-radius: 25px;
+  border: #f2f2f2 solid 1px;
+}
+#populaires {
+  margin-left: 40px;
+  margin-top: 43px;
+  margin-right: 40px;
+  height: 532px;
+  border: 1px red solid;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+#titrepopulaires {
+  border: red 1px solid;
+  font-size: 18px;
+  margin-top: 0;
+  width: 70%;
+  height: 18px;
+}
+#chart {
+  font-size: 22px;
+  position: relative;
+  top: -35px;
+  left: 316px;
+}
+/*class des cartes*/
+.cartedescriptionside {
+  border: solid white 1px;
+  width: 205px;
+  height: 132px;
+  position: relative;
+  left: 127px;
+  top: -1px;
+  background-color: white;
+  border-radius: 0px 20px 20px 0;
+}
+.cartedescriptionside h1,
+.cartedescriptionside p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 12px;
+  color: black;
+}
+.cartedescriptionside p span {
+  font-weight: bold;
+}
+
+/*cartes*/
+#soleil {
+  width: 332px;
+  height: 132px;
+  border: 5px solid white;
+  border-radius: 25px;
+  background: url("images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg")
+    no-repeat;
+  background-size: 332px 132px;
+  margin-left: -2px;
+}
+#eau {
+  width: 332px;
+  height: 132px;
+  border: 5px solid white;
+  border-radius: 25px;
+  background: url("images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg")
+    no-repeat;
+  background-size: 332px 132px;
+  margin-left: -2px;
+}
+#bleu {
+  width: 332px;
+  height: 132px;
+  border: 5px solid white;
+  border-radius: 25px;
+  background: url("images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg")
+    no-repeat;
+  background-size: 332px 132px;
+  margin-left: -2px;
 }
