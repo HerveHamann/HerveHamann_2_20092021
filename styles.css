@@ -2,32 +2,30 @@
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
-}
-
-body {
-  max-width: 1440px;
-  width: 100%;
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 1440;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 header {
   display: flex;
   justify-content: space-between;
-  height: 126px;
-  margin-top: 0px;
+  height: 121px;
 }
 #logo {
-  padding-top: 33px;
+  padding-top: 36px;
 }
 /* Nav bar*/
 nav ul {
   list-style: none;
   display: flex;
+  width: 380px;
+  justify-content: space-between;
+  margin-right: 20px;
 }
 nav li {
-  margin-right: 65px;
-  margin-top: 25px;
+  margin-top: 28px;
 }
+
 nav a {
   text-decoration: none;
   color: black;
@@ -36,20 +34,20 @@ nav a {
 .barrebleueA:hover {
   color: #0065fc;
   border-top: #0065fc 3px solid;
-  padding: 47px 33px 0 33px;
+  padding: 50px 33px 0 33px;
 }
 .marginreducA:hover {
-  margin-right: 32px;
-  margin-left: 0px;
+  margin-right: -33px;
+  margin-left: -33px;
 }
 
 .barrebleueB:hover {
   color: #0065fc;
   border-top: #0065fc 3px solid;
-  padding: 47px 57px 0 57px;
+  padding: 50px 57px 0 57px;
 }
 .marginreducB:hover {
-  margin-right: 8px;
+  margin-right: -57px;
   margin-left: -57px;
 }
 /*lien inscription*/
@@ -66,24 +64,24 @@ nav a {
 #sectionsearchbar h1 {
   margin-top: 0px;
   font-weight: bold;
-  font-size: 18px;
-
-  margin-bottom: 15px;
+  font-size: 22px;
+  margin-bottom: -5px;
 }
-#sectionsearchbar p {
-  font-size: 14px;
-  margin-bottom: 8px;
+#sectionsearchbar h1 + p {
+  font-size: 16px;
+  margin-bottom: 0px;
 }
 #searchbar {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 16px;
 }
 #searchicon {
-  padding: 17px 0 0 21px;
+  padding: 13px 0 0 21px;
+  font-size: 20px;
 }
 #firstzone {
-  margin-top: 5px;
   width: 54px;
   height: 47px;
   border: 1px solid #f2f2f2;
@@ -117,6 +115,7 @@ nav a {
 }
 #filtrebar p {
   font-weight: bold;
+  font-size: 18px;
 }
 /*classe fond blue de l'icone*/
 .iconzone {
@@ -143,8 +142,7 @@ nav a {
   font-size: 18px;
 }
 #economiqueicon {
-  width: 20px;
-  height: 18px;
+  font-size: 17px;
   margin-top: 16px;
   margin-left: 14px;
   color: #0065fc;
@@ -165,10 +163,9 @@ nav a {
   font-size: 19px;
 }
 #childicon {
-  width: 18px;
-  height: 26px;
-  margin-top: 16px;
-  margin-left: 18px;
+  font-size: 21px;
+  margin-top: 13px;
+  margin-left: 16px;
   color: #0065fc;
 }
 /*Icone Romantique*/
@@ -186,10 +183,9 @@ nav a {
   font-size: 19px;
 }
 #hearticon {
-  width: 20px;
-  height: 20px;
-  margin-top: 17px;
-  margin-left: 16px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 14px;
   color: #0065fc;
 }
 /*Icone Animal*/
@@ -207,10 +203,9 @@ nav a {
   font-size: 19px;
 }
 #animalicon {
-  width: 25px;
-  height: 23px;
-  margin-top: 16px;
-  margin-left: 16px;
+  font-size: 22px;
+  margin-top: 11px;
+  margin-left: 13px;
   color: #0065fc;
 }
 #filtreeco:hover,
@@ -234,11 +229,12 @@ nav a {
   border-radius: 20px;
 }
 #infoicon {
+  font-size: 13px;
   margin-left: 10px;
-  margin-top: 4px;
+  margin-top: 7px;
 }
 #info {
-  margin-top: 50px;
+  margin-top: 16px;
 }
 #info p {
   margin-left: 13px;
@@ -257,7 +253,7 @@ nav a {
 }
 #titrehebergement {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   margin-top: 0px;
   margin-bottom: 25px;
 }
@@ -279,6 +275,7 @@ nav a {
 }
 #afficher {
   font-weight: bold;
+  font-size: 18px;
   margin: 0000;
   padding: 0000;
 }
@@ -286,7 +283,7 @@ nav a {
 .starbar {
   font-size: 12px;
   margin-left: 12px;
-  margin-top: 10px;
+  margin-top: 0px;
   color: #0065fc;
 }
 
@@ -300,10 +297,18 @@ nav a {
   background-color: white;
   border-radius: 0 0 20px 20px;
 }
-.cartedescription h1,
+.cartedescription h1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 12px;
+  color: black;
+}
 .cartedescription p {
-  font-size: 12px;
-  margin-top: 10px;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 5px;
   margin-left: 12px;
   color: black;
 }
@@ -393,23 +398,20 @@ nav a {
   margin-top: 43px;
   margin-right: 40px;
   height: 532px;
-  border: 1px red solid;
   display: flex;
-  display: flex;
+  justify-content: space-between;
   flex-direction: column;
 }
 #titrepopulaires {
-  border: red 1px solid;
-  font-size: 18px;
+  font-weight: bolder;
+  font-size: 22px;
   margin-top: 0;
-  width: 70%;
-  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
 }
 #chart {
-  font-size: 22px;
-  position: relative;
-  top: -35px;
-  left: 316px;
+  font-size: 25px;
 }
 /*class des cartes*/
 .cartedescriptionside {
@@ -422,17 +424,27 @@ nav a {
   background-color: white;
   border-radius: 0px 20px 20px 0;
 }
-.cartedescriptionside h1,
-.cartedescriptionside p {
-  font-size: 12px;
+.cartedescriptionside h1 {
+  font-size: 16px;
   margin-top: 10px;
+  margin-left: 12px;
+  color: black;
+  font-weight: bolder;
+  width: 70%;
+}
+.cartedescriptionside p {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 32px;
   margin-left: 12px;
   color: black;
 }
 .cartedescriptionside p span {
   font-weight: bold;
 }
-
+#sectionpopulaires a {
+  text-decoration: none;
+}
 /*cartes*/
 #soleil {
   width: 332px;
