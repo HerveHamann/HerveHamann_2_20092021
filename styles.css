@@ -3,13 +3,13 @@ body {
   background-color: white;
   font-family: "Raleway", sans-serif;
   width: 1440;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 header {
   display: flex;
   justify-content: space-between;
   height: 121px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 #logo {
   padding-top: 36px;
@@ -60,6 +60,8 @@ nav a {
 /*recherche*/
 #sectionsearchbar {
   height: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 #sectionsearchbar h1 {
   margin-top: 0px;
@@ -243,6 +245,9 @@ nav a {
 #sectionhp {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 63px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 /*Section hébergement*/
 #hebergement {
@@ -272,11 +277,13 @@ nav a {
 }
 #carteshebergement a {
   text-decoration: none;
+  height: 200px;
+  margin-bottom: 30px;
 }
 #afficher {
   font-weight: bold;
   font-size: 18px;
-  margin: 0000;
+  margin: 10px 000;
   padding: 0000;
 }
 /*class cartes*/
@@ -291,9 +298,10 @@ nav a {
   border: solid white 1px;
   width: 244px;
   height: 80px;
-  position: relative;
-  top: 115px;
+  position: absolute;
+  bottom: 0px;
   left: -5px;
+
   background-color: white;
   border-radius: 0 0 20px 20px;
 }
@@ -329,6 +337,7 @@ nav a {
     no-repeat;
   background-size: 236px 190px;
   margin-bottom: 35px;
+  position: relative;
 }
 /*Carte Port*/
 #port {
@@ -340,6 +349,7 @@ nav a {
     no-repeat;
   background-size: 236px 190px;
   margin-bottom: 35px;
+  position: relative;
 }
 /*Carte Mouettes*/
 #mouettes {
@@ -351,6 +361,7 @@ nav a {
     no-repeat;
   background-size: 236px 190px;
   margin-bottom: 35px;
+  position: relative;
 }
 /*Carte Mer*/
 #mer {
@@ -361,7 +372,8 @@ nav a {
   background: url("images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg")
     no-repeat;
   background-size: 236px 190px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
+  position: relative;
 }
 /*Carte Panier*/
 #panier {
@@ -372,7 +384,8 @@ nav a {
   background: url("images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg")
     no-repeat;
   background-size: 236px 190px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
+  position: relative;
 }
 /*Carte Amina*/
 #Amina {
@@ -383,7 +396,8 @@ nav a {
   background: url("images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")
     no-repeat;
   background-size: 236px 190px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
+  position: relative;
 }
 /*section populaire*/
 #sectionpopulaires {
@@ -397,7 +411,7 @@ nav a {
   margin-left: 40px;
   margin-top: 43px;
   margin-right: 40px;
-  height: 532px;
+  height: 550px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -418,11 +432,11 @@ nav a {
   border: solid white 1px;
   width: 205px;
   height: 132px;
-  position: relative;
-  left: 127px;
+  position: absolute;
+  right: 0px;
   top: -1px;
   background-color: white;
-  border-radius: 0px 20px 20px 0;
+  border-radius: 0px 15px 15px 0;
 }
 .cartedescriptionside h1 {
   font-size: 16px;
@@ -455,6 +469,7 @@ nav a {
     no-repeat;
   background-size: 332px 132px;
   margin-left: -2px;
+  position: relative;
 }
 #eau {
   width: 332px;
@@ -465,6 +480,7 @@ nav a {
     no-repeat;
   background-size: 332px 132px;
   margin-left: -2px;
+  position: relative;
 }
 #bleu {
   width: 332px;
@@ -475,4 +491,189 @@ nav a {
     no-repeat;
   background-size: 332px 132px;
   margin-left: -2px;
+  position: relative;
+}
+/*Section Activité*/
+#sectionactivite {
+  height: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 60px;
+}
+#titreactivite {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+#cartesactivite {
+  display: flex;
+  justify-content: space-between;
+}
+.nomactivite {
+  border: solid #f2f2f2 1px;
+  width: 300px;
+  height: 57px;
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  box-shadow: #f2f2f2 2px 2px 5px;
+}
+.nomactivite h1 {
+  font-size: 16px;
+  margin-left: 18px;
+  margin-top: 20px;
+}
+#vieuxport {
+  width: 302px;
+  height: 448px;
+  border: 0px solid #f2f2f2;
+  border-radius: 25px;
+  background: url(images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg)
+    no-repeat;
+  background-size: 302px 448px;
+  box-shadow: #f2f2f2 2px 2px 5px;
+  position: relative;
+}
+#subcarte2 {
+  height: 448px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#clicpomegues {
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  margin-bottom: 40px;
+}
+#clicfrioul {
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+}
+#pomegues {
+  width: 302px;
+  height: 448px;
+  border: 0px solid #f2f2f2;
+  border-radius: 25px;
+  background: url(images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg)
+    no-repeat;
+  background-size: 302px 448px;
+  box-shadow: #f2f2f2 2px 2px 5px;
+  position: relative;
+  flex: 1;
+}
+#frioul {
+  width: 302px;
+  height: 448px;
+  border: 0px solid #f2f2f2;
+  border-radius: 25px;
+  background: url(images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg)
+    no-repeat;
+  background-size: 302px 448px;
+  box-shadow: #f2f2f2 2px 2px 5px;
+  position: relative;
+  flex: 1;
+}
+
+#calangues {
+  width: 302px;
+  height: 448px;
+  border: 0px solid #f2f2f2;
+  border-radius: 25px;
+  background: url(images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)
+    no-repeat;
+  background-size: 302px 448px;
+  box-shadow: #f2f2f2 0 0 2px 2px 5px;
+  position: relative;
+}
+#subcarte4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 448px;
+}
+#clicnotredame {
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  margin-bottom: 40px;
+}
+#cliclongchamp {
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#notredame {
+  width: 302px;
+  height: 448px;
+  border: 0px solid #f2f2f2;
+  border-radius: 25px;
+  background: url(images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg)
+    no-repeat;
+  background-size: 302px 448px;
+  box-shadow: #f2f2f2 2px 2px 5px;
+  position: relative;
+  flex: 1;
+}
+#longchamp {
+  width: 302px;
+  height: 448px;
+  border: 0px solid #f2f2f2;
+  border-radius: 25px;
+  background: url(images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg)
+    no-repeat;
+  background-size: 302px 448px;
+  box-shadow: #f2f2f2 2px 2px 5px;
+  position: relative;
+  flex: 1;
+}
+#cartesactivite a {
+  color: black;
+}
+/*Footer*/
+footer {
+  background-color: #f2f2f2;
+  height: 215px;
+  display: flex;
+  justify-content: flex-start;
+}
+footer ul {
+  list-style-type: none;
+}
+footer p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+li {
+  margin-bottom: 12px;
+}
+#sectionapropos {
+  margin-left: 50px;
+}
+#sectionapropos ul {
+  padding-left: 0px;
+}
+#sectionnoshebergements {
+  margin-left: 207px;
+}
+#sectionnoshebergements ul {
+  padding-left: 0px;
+}
+#sectionassistance {
+  margin-left: 288px;
+}
+#sectionassistance ul {
+  padding-left: 0px;
 }
