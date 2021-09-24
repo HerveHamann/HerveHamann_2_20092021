@@ -296,7 +296,7 @@ nav a {
 
 .cartedescription {
   width: 245px;
-  height: 81px;
+  height: 76px;
   position: absolute;
   bottom: -1px;
   left: -5px;
@@ -331,9 +331,11 @@ nav a {
   height: 190px;
   border: 5px solid white;
   border-radius: 25px;
-  background: url("images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg")
+  background: url("images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg")
     no-repeat;
-  background-size: 236px 190px;
+  background-size: 100% 85%;
+  background-position-y: -25px;
+
   margin-bottom: 35px;
   position: relative;
 }
@@ -343,9 +345,10 @@ nav a {
   height: 190px;
   border: 5px solid white;
   border-radius: 25px;
-  background: url("images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg")
+  background: url("images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg")
     no-repeat;
-  background-size: 236px 190px;
+  background-size: 100% 85%;
+  background-position-y: -25px;
   margin-bottom: 35px;
   position: relative;
 }
@@ -355,9 +358,10 @@ nav a {
   height: 190px;
   border: 5px solid white;
   border-radius: 25px;
-  background: url("images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg")
+  background: url("images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg")
     no-repeat;
-  background-size: 236px 190px;
+  background-size: 100% 85%;
+  background-position-y: -25px;
   margin-bottom: 35px;
   position: relative;
 }
@@ -367,9 +371,11 @@ nav a {
   height: 190px;
   border: 5px solid white;
   border-radius: 25px;
-  background: url("images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg")
+  background: url("images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg")
     no-repeat;
-  background-size: 236px 190px;
+  background-size: 100% 110%;
+  background-position-y: -42px;
+  background-position-x: 3px;
   margin-bottom: 35px;
   position: relative;
 }
@@ -379,9 +385,10 @@ nav a {
   height: 190px;
   border: 5px solid white;
   border-radius: 25px;
-  background: url("images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg")
+  background: url("images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg")
     no-repeat;
-  background-size: 236px 190px;
+  background-size: 100% 85%;
+  background-position-y: -25px;
   margin-bottom: 35px;
   position: relative;
 }
@@ -391,10 +398,11 @@ nav a {
   height: 190px;
   border: 5px solid white;
   border-radius: 25px;
-  background: url("images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")
+  background: url("images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg")
     no-repeat;
-  background-size: 236px 190px;
-  margin-bottom: 35px;
+  background-size: 103% 185%;
+  background-position-y: -117px;
+  background-position-x: -3px;
   position: relative;
 }
 /*section populaire*/
@@ -462,9 +470,11 @@ nav a {
   height: 132px;
   border: 5px solid white;
   border-radius: 25px;
-  background: url("images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg")
+  background: url("images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg")
     no-repeat;
-  background-size: 332px 132px;
+  background-size: 66%100%;
+  background-position-y: 0px;
+  background-position-x: -47px;
   margin-left: -2px;
   position: relative;
 }
@@ -473,9 +483,11 @@ nav a {
   height: 132px;
   border: 5px solid white;
   border-radius: 25px;
-  background: url("images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg")
+  background: url("images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg")
     no-repeat;
-  background-size: 332px 132px;
+  background-size: 60% 100%;
+  background-position-y: 0px;
+  background-position-x: -37px;
   margin-left: -2px;
   position: relative;
 }
@@ -484,9 +496,11 @@ nav a {
   height: 132px;
   border: 5px solid white;
   border-radius: 25px;
-  background: url("images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg")
+  background: url("images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg")
     no-repeat;
-  background-size: 332px 132px;
+  background-size: 45% 150%;
+  background-position-y: -35px;
+  background-position-x: -30px;
   margin-left: -2px;
   position: relative;
 }
@@ -527,9 +541,10 @@ nav a {
   height: 448px;
   border: 0px solid #f2f2f2;
   border-radius: 25px;
-  background: url(images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg)
+  background: url("images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg")
     no-repeat;
-  background-size: 302px 448px;
+  background-size: 225% 100%;
+  background-position-x: -200px;
   box-shadow: #f2f2f2 2px 2px 5px;
   position: relative;
 }
@@ -558,9 +573,11 @@ nav a {
   height: 448px;
   border: 0px solid #f2f2f2;
   border-radius: 25px;
-  background: url(images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg)
+  background: url("images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg")
     no-repeat;
-  background-size: 302px 448px;
+  background-size: 100% 175%;
+  background-position-y: -100px;
+  background-position-x: 0px;
   box-shadow: #f2f2f2 2px 2px 5px;
   position: relative;
   flex: 1;
@@ -570,9 +587,11 @@ nav a {
   height: 448px;
   border: 0px solid #f2f2f2;
   border-radius: 25px;
-  background: url(images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg)
+  background: url("images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg")
     no-repeat;
-  background-size: 302px 448px;
+  background-size: 100% 100%;
+  background-position-y: 0px;
+  background-position-x: 0px;
   box-shadow: #f2f2f2 2px 2px 5px;
   position: relative;
   flex: 1;
@@ -583,9 +602,11 @@ nav a {
   height: 448px;
   border: 0px solid #f2f2f2;
   border-radius: 25px;
-  background: url(images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg)
+  background: url("images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg")
     no-repeat;
-  background-size: 302px 448px;
+  background-size: 225% 100%;
+  background-position-y: 0px;
+  background-position-x: -180px;
   box-shadow: #f2f2f2 2px 2px 5px;
   position: relative;
 }
@@ -615,9 +636,9 @@ nav a {
   height: 448px;
   border: 0px solid #f2f2f2;
   border-radius: 25px;
-  background: url(images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg)
+  background: url("images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg")
     no-repeat;
-  background-size: 302px 448px;
+  background-size: 100% 100%;
   box-shadow: #f2f2f2 2px 2px 5px;
   position: relative;
   flex: 1;
@@ -627,9 +648,9 @@ nav a {
   height: 448px;
   border: 0px solid #f2f2f2;
   border-radius: 25px;
-  background: url(images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg)
+  background: url("images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg")
     no-repeat;
-  background-size: 302px 448px;
+  background-size: 100% 100%;
   box-shadow: #f2f2f2 2px 2px 5px;
   position: relative;
   flex: 1;
