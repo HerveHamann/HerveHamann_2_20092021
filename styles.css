@@ -117,10 +117,11 @@ nav a {
 #filtrebar {
   display: flex;
 }
-#filtrebar p {
+#filtrebar {
   font-weight: bold;
   font-size: 18px;
 }
+
 /*classe fond blue de l'icone*/
 .iconzone {
   width: 48px;
@@ -252,7 +253,7 @@ nav a {
 /*Section hébergement*/
 #hebergement {
   margin-left: 40px;
-  margin-top: 43px;
+  margin-top: 45px;
   margin-right: 40px;
   height: 532px;
 }
@@ -415,7 +416,7 @@ nav a {
 }
 #populaires {
   margin-left: 40px;
-  margin-top: 43px;
+  margin-top: 45px;
   margin-right: 40px;
   height: 550px;
   display: flex;
@@ -498,7 +499,7 @@ nav a {
   border-radius: 25px;
   background: url("images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg")
     no-repeat;
-  background-size: 45% 150%;
+  background-size: 50% 150%;
   background-position-y: -35px;
   background-position-x: -30px;
   margin-left: -2px;
@@ -667,6 +668,7 @@ footer {
 }
 footer ul {
   list-style-type: none;
+  padding-left: 0px;
 }
 footer p {
   font-weight: bold;
@@ -680,18 +682,11 @@ li {
 #sectionapropos {
   margin-left: 50px;
 }
-#sectionapropos ul {
-  padding-left: 0px;
-}
+
 #sectionnoshebergements {
   margin-left: 207px;
 }
-#sectionnoshebergements ul {
-  padding-left: 0px;
-}
+
 #sectionassistance {
   margin-left: 288px;
-}
-#sectionassistance ul {
-  padding-left: 0px;
 }
