@@ -294,7 +294,6 @@ nav a {
   text-decoration: none;
   width: 29.5%;
   position: relative;
-
   height: 200px;
   margin-bottom: 35px;
 }
@@ -314,10 +313,10 @@ nav a {
 }
 
 .cartedescription {
-  width: 100%;
+  width: 101%;
   height: 76px;
   position: absolute;
-  bottom: 0px;
+  bottom: -1px;
   background-color: white;
   border-radius: 0 0 20px 20px;
 }
@@ -339,7 +338,10 @@ nav a {
 .cartedescription p span {
   font-weight: bold;
 }
-
+.cartedescription .starbar {
+  position: absolute;
+  bottom: 2px;
+}
 .greystar {
   color: #f2f2f2;
 }
@@ -447,26 +449,31 @@ nav a {
 /*class des cartes*/
 .cartedescriptionside {
   width: 62%;
-  height: 133px;
+  height: 100%;
   position: absolute;
   right: 0px;
-  top: -1px;
+  top: 0px;
   background-color: white;
   border-radius: 0px 15px 15px 0;
 }
 .cartedescriptionside h1 {
   font-size: 16px;
+  width: 84%;
   margin-top: 10px;
-  margin-left: 12px;
+  margin-left: 6%;
   color: black;
-  font-weight: bolder;
+  font-weight: bold;
 }
 .cartedescriptionside p {
   font-size: 14px;
-  margin-top: 0px;
-  margin-bottom: 32px;
-  margin-left: 12px;
+  margin-left: 6%;
+  margin-bottom: 0px;
   color: black;
+}
+.cartedescriptionside .starbar {
+  position: absolute;
+  bottom: 10px;
+  margin-left: 6%;
 }
 .cartedescriptionside p span {
   font-weight: bold;
@@ -525,6 +532,7 @@ nav a {
   display: flex;
   justify-content: space-between;
 }
+/*Classes activités*/
 .nomactivite {
   border: solid #f2f2f2 1px;
   width: 100%;
@@ -533,13 +541,14 @@ nav a {
   bottom: 0px;
   background-color: white;
   border-radius: 0 0 20px 20px;
-  box-shadow: #f2f2f2 1px 1px 1px;
+  box-shadow: #f2f2f2 0px 1px 10px;
 }
 .nomactivite h1 {
   font-size: 16px;
   margin-left: 18px;
   margin-top: 20px;
 }
+/*Cartes et conteneur de cartes activités*/
 #vieuxport {
   width: 100%;
   height: 448px;
@@ -651,6 +660,7 @@ nav a {
 #subcarte4 a {
   width: 100%;
 }
+/*effet halo bleu sur les cartes */
 #cannebiere:hover,
 #port:hover,
 #mouettes:hover,
@@ -705,31 +715,233 @@ a {
   width: 35%;
 }
 
-/*@media screen and (max-width: 1440px) and (min-width: 768px) {
+@media all and (max-width: 1224px) and (min-width: 1025px) {
+  /*redimension section hebergement 2 cartes par ligne*/
+  #sectionhebergement {
+    width: 60%;
+    height: 875px;
+  }
+  #hebergement {
+    height: 750px;
+  }
+  #carteshebergement a {
+    width: 44.25%;
+  }
+  /*redimension section populaire*/
+  #sectionpopulaires {
+    width: 37%;
+    height: 875px;
+  }
+  #populaires {
+    height: 700px;
+  }
+  #soleil,
+  #eau,
+  #bleu {
+    height: 150px;
+  }
+  /*redimension section actvité 3 cartes par ligne*/
+  #sectionactivite {
+    height: 1000px;
+  }
+  #cartesactivite {
+    flex-wrap: wrap;
+  }
+  #cartesactivite a {
+    width: 48.58%;
+  }
+  #vieuxport {
+    margin-bottom: 35px;
+  }
+  #subcarte2 {
+    width: 48.58%;
+    margin-bottom: 35px;
+  }
+  #subcarte4 {
+    width: 48.58%;
+  }
+
+  #subcarte2 a,
+  #subcarte4 a {
+    width: 100%;
+  }
+  #clicpomegues,
+  #clicfrioul {
+    flex: 1;
+  }
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+  /*section searchbar*/
+  #sectionsearchbar {
+    height: 350px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  /*Adaptation du filtre*/
+  #filtrebar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #filtreanimal {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  /*section populaire placée au dessus de hebergement*/
   #sectionhp {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 63px;
-    padding-left: 50px;
-    padding-right: 50px;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
+  /*redimension section hebergement*/
+  #sectionhebergement {
+    width: 100%;
+  }
+  /*redimension section populaire*/
+
   #populaires {
-    margin-left: 40px;
-    margin-top: 45px;
-    margin-right: 40px;
     height: 550px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #populaires a {
+    width: 70%;
+  }
+  #populaires h1 {
+    align-self: flex-start;
+    width: 100%;
   }
   #sectionpopulaires {
-    width: 880px;
-    height: 625px;
-    background: #f2f2f2;
-    border-radius: 25px;
-    border: #f2f2f2 solid 1px;
+    width: 100%;
+    margin-bottom: 63px;
+  }
+  #soleil,
+  #eau,
+  #bleu {
+    width: 100%;
+  }
+
+  /*redimension section actvité 3 cartes par ligne*/
+  #sectionactivite {
+    height: 1000px;
+  }
+  #cartesactivite {
+    flex-wrap: wrap;
+  }
+  #cartesactivite a {
+    width: 48.58%;
+  }
+  #vieuxport {
+    margin-bottom: 35px;
+  }
+  #subcarte2 {
+    width: 48.58%;
+    margin-bottom: 35px;
+  }
+  #subcarte4 {
+    width: 48.58%;
+  }
+  #subcarte2 a,
+  #subcarte4 a {
+    width: 100%;
+  }
+  #clicpomegues,
+  #clicfrioul {
+    flex: 1;
   }
 }
-*/
+@media all and (max-width: 768px) and (min-width: 480px) {
+  /*section searchbar*/
+  #sectionsearchbar {
+    height: 350px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  /*Adaptation du filtre*/
+  #filtrebar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #filtreromantique {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  #filtreanimal {
+    margin-top: 10px;
+  } /*section populaire placée au dessus de hebergement*/
+  #sectionhp {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  /*redimension section hebergement*/
+  #sectionhebergement {
+    width: 100%;
+  }
+  /*redimension section populaire*/
+
+  #populaires {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #populaires a {
+    width: 70%;
+  }
+  #populaires h1 {
+    align-self: flex-start;
+    width: 100%;
+  }
+  #sectionpopulaires {
+    width: 100%;
+    margin-bottom: 63px;
+  }
+  #soleil,
+  #eau,
+  #bleu {
+    width: 100%;
+  }
+  /*redimension section hebergement 2 cartes par ligne*/
+  #sectionhebergement {
+    width: 100%;
+    height: 1600px;
+  }
+  #hebergement {
+    height: 1500px;
+  }
+  #carteshebergement a {
+    width: 100%;
+  }
+  /*redimension section actvité 3 cartes par ligne*/
+  #sectionactivite {
+    height: 1000px;
+  }
+  #cartesactivite {
+    flex-wrap: wrap;
+  }
+  #cartesactivite a {
+    width: 48.58%;
+  }
+  #vieuxport {
+    margin-bottom: 35px;
+  }
+  #subcarte2 {
+    width: 48.58%;
+    margin-bottom: 35px;
+  }
+  #subcarte4 {
+    width: 48.58%;
+  }
+  #subcarte2 a,
+  #subcarte4 a {
+    width: 100%;
+  }
+  #clicpomegues,
+  #clicfrioul {
+    flex: 1;
+  }
+}
