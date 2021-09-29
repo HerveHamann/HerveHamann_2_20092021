@@ -1369,10 +1369,9 @@ a {
   /*redimension section actvité 3 cartes par ligne*/
   #sectionactivite {
     height: 1350px;
-
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
   #titreactivite {
     font-weight: bold;
@@ -1432,6 +1431,7 @@ a {
     display: flex;
     flex-direction: column;
     padding-bottom: 0px;
+    margin-top: -10px;
   }
   footer ul {
     list-style-type: none;
