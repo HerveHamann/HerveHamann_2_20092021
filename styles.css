@@ -1,4 +1,4 @@
-/*Styles principaux*/
+/*Styles version Desktop*/
 body {
   background-color: white;
   font-family: "Raleway", sans-serif;
@@ -184,7 +184,7 @@ nav li {
   height: 48px;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  margin-left: 24px;
+  margin-left: 28px;
 }
 #filtrefamilial p {
   padding-left: 14px;
@@ -203,7 +203,7 @@ nav li {
   height: 48px;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  margin-left: 24px;
+  margin-left: 28px;
 }
 #filtreromantique p {
   padding-left: 14px;
@@ -222,7 +222,7 @@ nav li {
   height: 48px;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  margin-left: 24px;
+  margin-left: 28px;
 }
 #filtreanimal p {
   padding-left: 14px;
@@ -234,7 +234,7 @@ nav li {
   margin-left: 13px;
   color: #0065fc;
 }
-
+/*Effet filtres*/
 #filtreeco:hover,
 #filtrefamilial:hover,
 #filtreromantique:hover,
@@ -322,7 +322,9 @@ nav li {
   margin-top: 0px;
   color: #0065fc;
 }
-
+.greystar {
+  color: #f2f2f2;
+}
 .cartedescription {
   width: 101%;
   height: 76px;
@@ -353,9 +355,7 @@ nav li {
   position: absolute;
   bottom: 2px;
 }
-.greystar {
-  color: #f2f2f2;
-}
+
 /*Carte Cannebière*/
 #cannebiere {
   width: 100%;
@@ -720,7 +720,7 @@ a {
 #sectionassistance {
   width: 35%;
 }
-
+/*Responsive moyen desktop*/
 @media all and (max-width: 1224px) and (min-width: 1025px) {
   /*redimension section hebergement 2 cartes par ligne*/
   #sectionhebergement {
@@ -776,7 +776,7 @@ a {
     flex: 1;
   }
 }
-
+/*Responsive petit desktop grandes tablettes*/
 @media all and (max-width: 1024px) and (min-width: 769px) {
   /*section searchbar*/
   #sectionsearchbar {
@@ -790,8 +790,12 @@ a {
     flex-wrap: wrap;
   }
   #filtreanimal {
-    margin-left: 0px;
     margin-top: 10px;
+  }
+  #filtreeconomique,
+  #filtrefamilial,
+  #filtreromantique {
+    margin-left: 14px;
   }
   /*section populaire placée au dessus de hebergement*/
   #sectionhp {
@@ -803,6 +807,9 @@ a {
   #sectionhebergement {
     width: 100%;
   }
+  #carteshebergement a {
+    width: 31%;
+  }
   /*redimension section populaire*/
 
   #populaires {
@@ -813,7 +820,7 @@ a {
     flex-direction: column;
   }
   #populaires a {
-    width: 70%;
+    width: 80%;
   }
   #populaires h1 {
     align-self: flex-start;
@@ -858,7 +865,7 @@ a {
     flex: 1;
   }
 }
-
+/*Responsive tablette*/
 @media all and (max-width: 768px) and (min-width: 426px) {
   /*Header*/
   header {
@@ -924,7 +931,7 @@ a {
 
   /*section searchbar*/
   #sectionsearchbar {
-    height: 525px;
+    height: 500px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 0px;
@@ -1033,7 +1040,11 @@ a {
     width: 48%;
   }
   /*redimension section populaire*/
-
+  #chart {
+    position: relative;
+    left: 140px;
+    font-size: 25px;
+  }
   #populaires {
     height: 550px;
     display: flex;
@@ -1046,7 +1057,7 @@ a {
   }
   #populaires h1 {
     align-self: flex-start;
-    width: 100%;
+    width: 70%;
   }
   #sectionpopulaires {
     width: 100%;
@@ -1129,7 +1140,7 @@ a {
     height: 93px;
   }
 }
-
+/*responsive mobile*/
 @media all and (max-width: 425px) {
   /*Header*/
   header {
@@ -1466,5 +1477,22 @@ a {
     margin-left: 27px;
     margin-top: 35px;
     height: 93px;
+  }
+}
+/*responsive petit mobile*/
+@media all and (max-width: 370px) {
+  #sectionsearchbar {
+    height: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 0px;
+  }
+  #searchzone {
+    width: 160px;
+  }
+  #chart {
+    position: relative;
+    left: 80px;
+    font-size: 25px;
   }
 }
